@@ -1,3 +1,3 @@
 # trilha-java-basico
 
-criado para postar as atualizações durante o curso da java basico da DIO.
+criado para postar as atualizações durante o curso de java basico da DIO.
