@@ -1,14 +1,21 @@
+import javax.swing.text.StyledEditorKit.BoldAction;
+
 public class Operadores {
     public static void main(String[] args) {
-       int a, b;
+       boolean condicao1=false;
 
-       a = 5;
-       b = 6;
-       
-       int resultado = a==b ? 1 : 0;
+       boolean condicao2=false;
 
-        
+       if(condicao1 && condicao2){
+        System.out.println("as duas são verdadeiras");
+       }
+       else if (condicao1 || condicao2) {
+        System.out.println("uma das duas é verdadeira");
+       }
+       else{
+        System.out.println("nenhuma é");
+       }
 
-       System.out.println(resultado);
+       System.out.println("fim");
     }
 }
